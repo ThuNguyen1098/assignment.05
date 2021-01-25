@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: FS Playlist Script;
+  src: url(FS\ Playlist\ Script.ttf);
+}
+.bar {
+  border-radius: 50px;
+  margin: 50px 50px 0px;
+  height: 100px;
+  box-shadow: 5px 5px 10px #86cbf9;
+  background-color: #bde6ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bar div h1{
+  font-family: FS Playlist Script;
+  text-align: center;
+  font-size: 60px;
+  color: #005b95;
+}
+.layout {
+  margin: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.layout div {
+  border-radius: 25px;
+  box-shadow: 5px 5px 10px #86cbf9;
+  height: 300px;
+}
+.layout #box1 {
+  width: 23%;
+  background-image: url(photos/disc.JPG);
+  background-position: center;
+  background-size: cover;
+}
+.layout #box2 {
+  width: 23%;
+  background-image: url(photos/candy.JPG);
+  background-position: center;
+  background-size: cover;
+}
+.layout #box3 {
+  width: 51%;
+  background-image: url(photos/glass.JPG);
+  background-position: center;
+  background-size: cover;
+}
+
+.layout2 {
+  margin: 20px 50px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.layout2 div {
+  position: relative;
+  border-radius: 25px;
+  box-shadow: 5px 5px 10px #86cbf9;
+  height: 200px;
+}
+.layout2 #box4 {
+  width: 75%;
+  background-image: url(photos/blueberry.JPG);
+  background-position: center;
+  background-size: cover;
+}
+.layout2 #box5 {
+  width: 24%;
+  background-image: url(photos/cd.JPG);
+  background-position: center;
+  background-size: cover;
+}
